@@ -1,0 +1,7 @@
+#!/bin/zsh
+#Author : Asuni Tarmizi
+
+echo "hello world!"
+echo "What is your name?"
+read PERSON
+echo "Hello, $PERSON"
