@@ -1,2 +1,9 @@
 #!/bin/zsh
 
+#---Variable Name---
+#1 - Unix shell variables will have their names in UPPERCASE.
+
+#---Defining Variable---
+#1 - variable_name=variable_value
+NAME = "Asuni Tarmizi"  #This is called scalar variable because it can only hold one value at a time
+echo $NAME
