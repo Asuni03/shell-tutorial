@@ -5,5 +5,10 @@
 
 #---Defining Variable---
 #1 - variable_name=variable_value
-NAME = "Asuni Tarmizi"  #This is called scalar variable because it can only hold one value at a time
+NAME="Asuni Tarmizi"  #This is called scalar variable because it can only hold one value at a time
+echo $NAME
+
+#---Read-only Variable---
+#1 - After a variable is marked read-only, its value cannot be changed.
+readonly NAME="Bobby"
 echo $NAME
