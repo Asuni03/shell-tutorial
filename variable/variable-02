@@ -1,3 +1,14 @@
 #!/bin/zsh
 
 #---Special Variables---
+
+#---File Name of the current script---
+echo $0
+
+#---Without Double Quotes---
+echo $@
+echo $*
+
+#---With Double Quotes---
+echo "$@"
+echo "$*"
