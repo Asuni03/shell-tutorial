@@ -1,0 +1,39 @@
+#!/bin/zsh
+
+# 1-array_name[index]=value
+#array_name=(one two three)
+#array_name=("one" "two" "three") #This one is used of the element has space within it
+
+#Method 1
+echo "Method 1"
+array[1]="apple"
+array[2]="banana"
+array[3]="cherry"
+
+echo $array[1]
+echo $array[2]
+#Getting all elements
+echo $array
+echo $array[@]
+
+#Method 2
+echo "Method 2"
+array2=(one two three)
+
+echo $array2[1]
+echo $array2[2]
+#Getting all elements
+echo $array2
+echo $array2[@]
+
+#Method 3
+echo "Method 3"
+array3=("First Item" "Second item" "Third item")
+
+echo "${array3[1]}=[1]"
+echo "${array3[2]}=[2]"
+echo "${array3[3]}=[3]"
+echo "${array3[1]}"
+echo "${array3[2]}"
+echo "${array3[3]}"
+
